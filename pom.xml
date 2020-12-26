@@ -87,7 +87,7 @@
                     </executions>
                     <configuration>
                         <!-- <repository>${docker.image.prefix}/${project.artifactId}</repository>  -->
-                        <repository>${docker.image.prefix}/${project.artifactId}</repository>
+                        <repository>xjpresley/reg</repository>
                         <contextDirectory>${basedir}</contextDirectory>
                         <tag>${docker.image.tag}</tag>
                         <!-- 注意在本地.m2/settings.xml中设置dockerhub账号和密码 -->
